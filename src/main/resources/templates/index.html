@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/5.3.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" th:href="@{/css/styles.css}"/>
+</head>
+<body class="p-3">
+<div class="container">
+    <h1 class="mb-4">To-Do List</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <form th:action="@{/tasks}" th:object="${taskForm}" method="post" id="taskForm" novalidate>
+                <div class="mb-3">
+                    <label for="title" class="form-label">Título</label>
+                    <input type="text" th:field="*{title}" id="title" class="form-control"/>
+                    <div class="invalid-feedback" th:if="${#fields.hasErrors('title')}" th:errors="*{title}"></div>
+                </div>
+                <div class="mb-3">
+                    <label for="description" class="form-label">Descrição</label>
+                    <textarea th:field="*{description}" id="description" class="form-control" rows="3"></textarea>
+                    <div class="invalid-feedback" th:if="${#fields.hasErrors('description')}" th:errors="*{description}"></div>
+                </div>
+                <button type="submit" class="btn btn-primary">Adicionar</button>
+                <button type="button" id="addAjaxBtn" class="btn btn-outline-secondary">Adicionar (AJAX)</button>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <h4>Tarefas</h4>
+            <ul class="list-group" id="tasksList">
+                <li th:each="task : ${tasks}" class="list-group-item d-flex justify-content-between align-items-start">
+                    <div>
+                        <div>
+                            <input type="checkbox" th:attr="data-id=${task.id}" th:checked="${task.completed}" class="toggle-complete me-2"/>
+                            <span th:text="${task.title}" th:classappend="${task.completed} ? 'text-decoration-line-through' : ''"></span>
+                        </div>
+                        <div class="small text-muted" th:text="${task.description}"></div>
+                    </div>
+                    <div>
+                        <a th:href="@{/tasks/{id}/edit(id=${task.id})}" class="btn btn-sm btn-outline-secondary me-1">Editar</a>
+                        <button class="btn btn-sm btn-danger btn-delete" th:attr="data-id=${task.id}">Apagar</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="/webjars/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<script th:src="@{/js/app.js}"></script>
+</body>
+</html>

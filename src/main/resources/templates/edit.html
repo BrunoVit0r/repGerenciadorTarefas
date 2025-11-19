@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Editar Tarefa</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/5.3.2/css/bootstrap.min.css"/>
+</head>
+<body class="p-3">
+<div class="container">
+    <h1 class="mb-4">Editar Tarefa</h1>
+    <form th:action="@{/tasks/{id}/update(id=${taskForm.id})}" th:object="${taskForm}" method="post" novalidate>
+        <div class="mb-3">
+            <label for="title" class="form-label">Título</label>
+            <input type="text" th:field="*{title}" id="title" class="form-control"/>
+            <div class="invalid-feedback" th:if="${#fields.hasErrors('title')}" th:errors="*{title}"></div>
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Descrição</label>
+            <textarea th:field="*{description}" id="description" class="form-control" rows="3"></textarea>
+            <div class="invalid-feedback" th:if="${#fields.hasErrors('description')}" th:errors="*{description}"></div>
+        </div>
+        <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" th:field="*{completed}" id="completed">
+            <label class="form-check-label" for="completed">Concluída</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Salvar</button>
+        <a href="/" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>
+<script src="/webjars/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

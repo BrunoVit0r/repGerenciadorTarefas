@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8cad897f-7aff-4e09-a112-58757cda9362" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../5- aula1609 - Construtores/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../5- aula1609 - Construtores/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../7-aula0710/ProjetoConta/src/model/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../7-aula0710/ProjetoConta/src/model/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0209/ExemploVetor/ExemploVetor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0209/ExemploVetor/src/Exemplo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0209/ExemploVetor/src/Exemplo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0209/ExemploVetor/src/Exemplo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0209/ProjetoAssociacao/ProjetoAssociacao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0209/ProjetoAssociacao/src/GerenciarEstacionamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0209/ProjetoAssociacao/src/model/Carro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0209/ProjetoAssociacao/src/model/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0909/ProjetoConta/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0909/ProjetoConta/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0909/ProjetoConta/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0909/ProjetoConta/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0909/ProjetoConta/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0909/ProjetoConta/ProjetoConta.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0909/ProjetoConta/src/GerenciarConta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0909/ProjetoConta/src/model/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploEnum/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploEnum/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploEnum/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploEnum/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploEnum/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploEnum/ExemploEnum.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploEnum/src/Teste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploEnum/src/model/Boleto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploEnum/src/model/Mes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploMath/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploMath/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploMath/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploMath/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploMath/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploMath/ExemploMath.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploMath/src/Teste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploThis/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploThis/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploThis/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploThis/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploThis/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploThis/ExemploThis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploThis/src/Teste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ExemploThis/src/model/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoBaralho/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoBaralho/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoBaralho/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoBaralho/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoBaralho/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoBaralho/ProjetoBaralho.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoBaralho/src/GerenciarJogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoBaralho/src/model/Baralho.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoBaralho/src/model/Carta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoBaralho/src/model/Naipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoBaralho/src/model/Valor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoTabuleiro/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoTabuleiro/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoTabuleiro/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoTabuleiro/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoTabuleiro/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoTabuleiro/ProjetoTabuleiro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoTabuleiro/src/GerenciarJogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1609/ProjetoTabuleiro/src/model/Tabuleiro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/gerenciar_pedidos/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/gerenciar_pedidos/src/main/java/br/edu/fatec/sispedido/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/gerenciar_pedidos/src/main/java/br/edu/fatec/sispedido/GerenciarApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/gerenciar_pedidos/src/main/java/br/edu/fatec/sispedido/Pedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/gerenciar_pedidos/src/main/java/br/edu/fatec/sispedido/PedidoDetalhe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/gerenciar_pedidos/src/main/java/br/edu/fatec/sispedido/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/gerenciar_pedidos/src/main/java/br/edu/fatec/sispedido/Utilitarios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/gerenciar_pedidos/target/classes/br/edu/fatec/sispedido/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/gerenciar_pedidos/target/classes/br/edu/fatec/sispedido/GerenciarApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/gerenciar_pedidos/target/classes/br/edu/fatec/sispedido/Pedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/gerenciar_pedidos/target/classes/br/edu/fatec/sispedido/PedidoDetalhe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/gerenciar_pedidos/target/classes/br/edu/fatec/sispedido/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/gerenciar_pedidos/target/classes/br/edu/fatec/sispedido/Utilitarios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/out/pedidos/pedidos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/pedidos.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/sispedido/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/sispedido/src/main/java/br/fatec/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/sispedido/src/main/java/br/fatec/GerenciarApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/sispedido/src/main/java/br/fatec/Pedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/sispedido/src/main/java/br/fatec/PedidoDetalhe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/sispedido/src/main/java/br/fatec/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/sispedido/src/main/java/br/fatec/Utilitarios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/sispedido/target/classes/br/fatec/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/sispedido/target/classes/br/fatec/GerenciarApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/sispedido/target/classes/br/fatec/Pedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/sispedido/target/classes/br/fatec/PedidoDetalhe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/sispedido/target/classes/br/fatec/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula2309/modelagem/sispedido/target/classes/br/fatec/Utilitarios.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <branch-grouping />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "BrunoVit0r"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/BrunoVit0r/repGerenciadorTarefas.git",
+    "accountId": "b381016e-c150-4f46-a2e2-5a18a331d876"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="35fqpDpFZk1oXwxqLIeporc3ZBo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cad897f-7aff-4e09-a112-58757cda9362" name="Changes" comment="" />
+      <created>1763511655469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763511655469</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
