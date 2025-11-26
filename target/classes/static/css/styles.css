@@ -1,3 +1,6 @@
-body { background: #f8f9fa; }
+
+
+body { background: #f8f9fa;  margin: 0px; padding: 0px}
 .list-group-item { transition: background .15s ease; }
 .list-group-item .me-2 { transform: translateY(2px); }
+.header { background-image: url('.././images/BannerPattern.png'); height: 100px; text-align: center; color: #FFFFFF; font-weight: bolder; font-size: xxx-large; padding-top: 20px}
