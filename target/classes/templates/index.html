@@ -11,8 +11,11 @@
 <h1 class="header">To-Do List</h1>
 <div class="container">
 
-    <div class="row">
-        <div class="col-md-6">
+    <div class="row"  style="display: flex; flex-direction: column">
+        <div class="AddItemHeader">
+            <h1 style={text-align:center;}>Adicionar Tarefa</h1>
+        </div>
+        <div class="AddItemContainer">
             <form th:action="@{/tasks}" th:object="${taskForm}" method="post" id="taskForm" novalidate>
                 <div class="mb-3">
                     <label for="title" class="form-label">Título</label>
@@ -24,8 +27,11 @@
                     <textarea th:field="*{description}" id="description" class="form-control" rows="3"></textarea>
                     <div class="invalid-feedback" th:if="${#fields.hasErrors('description')}" th:errors="*{description}"></div>
                 </div>
-                <button type="submit" class="btn btn-primary">Adicionar</button>
-                <button type="button" id="addAjaxBtn" class="btn btn-outline-secondary">Adicionar (AJAX)</button>
+                <div style="display: flex; flex-direction: row; width: 100%; align-items: center; justify-content: center; gap: 10%">
+                    <button type="submit" class="btn btn-primary">Adicionar</button>
+                    <button type="button" id="addAjaxBtn" class="btn btn-outline-secondary">Adicionar (AJAX)</button>
+                </div>
+
             </form>
         </div>
 
