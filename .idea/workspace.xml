@@ -7,6 +7,8 @@
     <list default="true" id="8cad897f-7aff-4e09-a112-58757cda9362" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/BannerPattern.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/BannerPattern.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,6 +119,7 @@
       <updated>1763511655469</updated>
       <workItem from="1764110555260" duration="2791000" />
       <workItem from="1764415593479" duration="4258000" />
+      <workItem from="1764429484618" duration="2292000" />
     </task>
     <servers />
   </component>
