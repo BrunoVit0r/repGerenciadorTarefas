@@ -12,10 +12,10 @@
 <div class="container">
 
     <div class="row"  style="display: flex; flex-direction: column">
-        <div class="AddItemHeader">
+        <div class="GridItemHeader">
             <h1 style={text-align:center;}>Adicionar Tarefa</h1>
         </div>
-        <div class="AddItemContainer">
+        <div class="GridItemContainer">
             <form th:action="@{/tasks}" th:object="${taskForm}" method="post" id="taskForm" novalidate>
                 <div class="mb-3">
                     <label for="title" class="form-label">Título</label>
@@ -35,18 +35,24 @@
             </form>
         </div>
 
-        <div class="col-md-6">
-            <h4>Tarefas</h4>
+        <div class="GridItemHeader">
+            <h1 style={text-align:center;}>Tarefas</h1>
+        </div>
+        <div class="GridItemContainer">
             <ul class="list-group" id="tasksList">
-                <li th:each="task : ${tasks}" class="list-group-item d-flex justify-content-between align-items-start">
-                    <div>
-                        <div>
-                            <input type="checkbox" th:attr="data-id=${task.id}" th:checked="${task.completed}" class="toggle-complete me-2"/>
-                            <span th:text="${task.title}" th:classappend="${task.completed} ? 'text-decoration-line-through' : ''"></span>
+                <li th:each="task : ${tasks}" class="TaskContainer">
+                    <div style="display: flex; flex-direction: column;  justify-content: center; width: 100%">
+                        <div style="display: flex;  align-items: center; flex-direction: column">
+                            <span style="font-size: xx-large; margin-bottom: 20px" th:text="${task.title}" th:classappend="${task.completed} ? 'text-decoration-line-through' : ''"></span>
+                            <div style="display: flex; flex-direction: row; gap: 30px; margin-bottom: 20px">
+                                <h4 class="text-muted;">Tarefa Concluida? </h4>
+                                <input type="checkbox" th:attr="data-id=${task.id}" th:checked="${task.completed}" class="toggle-complete"/>
+                            </div>
+
                         </div>
-                        <div class="small text-muted" th:text="${task.description}"></div>
+                        <div class="large text-muted;"  style="display: flex;  justify-content: center" th:text="${task.description}"></div>
                     </div>
-                    <div>
+                    <div style= "display: flex; justify-content: center; width: 100%; gap: 30px">
                         <a th:href="@{/tasks/{id}/edit(id=${task.id})}" class="btn btn-sm btn-outline-secondary me-1">Editar</a>
                         <button class="btn btn-sm btn-danger btn-delete" th:attr="data-id=${task.id}">Apagar</button>
                     </div>
