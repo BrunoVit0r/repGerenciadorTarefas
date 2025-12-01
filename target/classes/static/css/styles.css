@@ -4,8 +4,9 @@ body { background: #f8f9fa;  margin: 0px; padding: 0px}
 .list-group-item { transition: background .15s ease; }
 .list-group-item .me-2 { transform: translateY(2px); }
 .header { background-image: url('.././images/BannerPattern.png'); height: 100px; text-align: center; color: #FFFFFF; font-weight: bolder; font-size: xxx-large; padding-top: 20px}
+.container { padding-top: 40px; }
 .GridItemContainer { background-color: aliceblue; border-style: solid; border-width: 2px; border-color: #d3d3d3; padding: 20px; margin-bottom: 10% }
-.GridItemHeader { background-color: aliceblue; border-style: solid; border-width: 2px; border-color: #d3d3d3; padding: 20px; color: #434343; font-weight: bolder; font-size: xxx-large; text-align: center}
+.GridItemHeader { background-color: #75baff; padding: 20px; color: #FFFFFF; font-weight: bolder; font-size: xxx-large; text-align: center}
 .TaskContainer { background-color: white; border-style: solid; border-width: 2px; border-color: #ffa1a1; display: flex; flex-direction: column; gap: 20px; padding: 1%; font-size: larger; margin-bottom: 20px }
 .button {background-color: #75baff; border-color: #75baff; width: 30%; height: 20%; border-style: none; padding: 20px; font-size: x-large; font-weight: bold; color: white }
 .button:hover {background-color: #6ea6e7; border-color: #6ea6e7;}
